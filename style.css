@@ -1,33 +1,44 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: right;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  display: inline;
 }
 
-li {
-    display: inline;
+.left {
+  text-align: left;
+  display: inline;
+  list-style-type: none;
+  margin-right: 100%;
+}
+
+.right {
+  text-align: right;
+  list-style-type: none;
+  display: inline;
+  margin-left: 100%;
 }
 
 .center {
-    display: block;
-    margin: auto;
-    text-align: center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 
 .logo {
-    margin-top: 89px;
+  margin-top: 89px;
 }
 
 .searchbox {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #searchbox {
-    width: 500px;
-    height: 40px;
+  width: 500px;
+  height: 40px;
 }
 
 .buttons {
-    margin: 10px auto;
+  margin: 10px auto;
 }
